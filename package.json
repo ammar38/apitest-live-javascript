@@ -1,0 +1,24 @@
+{
+  "name": "apitest-live-javascript",
+  "version": "1.0.0",
+  "description": "mocha chai petstore",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "welcome": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js",
+    "test chai": "mocha test/api/chaiAssert.js"
+  },
+  "author": "Ammar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9"
+  }
+}
